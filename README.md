@@ -13,7 +13,7 @@ Work seamlessly between Google Sheets and our platform, transferring your work t
 Monitor your campaign with our data analysis tool. Check campaign status, completion rate, and overall performance at a glance.
 
 ## Demo
-https://github.com/takuyadev/emai/assets/55810680/8ffb8717-73dc-4038-8865-eb56fe107117
+https://github.com/takuyadev/personalize-ai/assets/55810680/af8d7d7d-52cf-45f7-8a54-28f8fd35d495
 
 ## Techstack
 
