@@ -1,0 +1,21 @@
+@import "@/styles/modules/variables.module.scss";
+@import "@/styles/modules/mixins.module.scss";
+
+.item {
+  @include row;
+  align-items: center;
+  gap: $spacing-md;
+  padding: $spacing-lg;
+  color: $secondary-color;
+  border-bottom: 1px solid $secondary-color;
+
+  &:hover {
+    color: $accent-color;
+    transition: $smooth-transition;
+  }
+}
+
+.item_selected {
+  color: $accent-color;
+  border-color: $accent-color;
+}

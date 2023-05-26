@@ -1,0 +1,110 @@
+@import "@/styles/modules/variables.module.scss";
+
+.imageOne {
+  color: white;
+  width: 100%;
+  height: 100vh;
+  margin: auto;
+  padding-top: 20px;
+  background: $accent-color;
+  font-size: 2rem;
+  overflow: hidden;
+}
+
+.firstDiv {
+  height: 20%;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sectionTitle {
+  text-align: center;
+
+  h2 {
+    font-size: 1.3em;
+  }
+
+  p {
+    font-size: 0.8em;
+  }
+}
+
+.container {
+  display: flex;
+  height: 80%;
+}
+
+.secondDiv {
+  height: 95%;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.thirdDiv {
+  height: 100%;
+  background: url("../../../images/image.jpg") no-repeat;
+  background-position: bottom;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.personalize {
+  font-size: .75em;
+  padding: 15%;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+@media only screen and (max-width: 992px) {
+  .imageOne {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .firstDiv h2 {
+    font-size: .80em;
+    margin: 5px;
+  }
+
+  .firstDiv p {
+    font-size: .65em;
+    padding: 10px;
+    text-align: center;
+    margin: 0;
+  }
+
+  .container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .secondDiv {
+    background-color: grey;
+    height: 80px;
+  }
+
+  .personalize {
+    font-size: .60em;
+  }
+
+  .thirdDiv {
+    order: -1;
+    background-image: url("../../../images/image.jpg");
+    background-repeat: no-repeat;
+    background-size: 66%;
+    background-position: center;
+    padding-top: 70px;
+  }
+
+
+}

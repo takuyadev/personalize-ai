@@ -1,0 +1,30 @@
+@import "@/styles/modules/variables.module.scss";
+@import "@/styles/modules/mixins.module.scss";
+
+.name_container {
+  @include row;
+}
+
+.card_wrapper {
+  @include column;
+}
+
+.name {
+  font-weight: bold;
+}
+
+.email {
+  opacity: 0.5;
+}
+
+.link {
+  text-decoration: none;
+  color: $secondary-color;
+}
+
+.delete{
+  position: absolute;
+  bottom: $spacing-none;
+  right: $spacing-md;
+}
+

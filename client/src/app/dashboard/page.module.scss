@@ -1,0 +1,29 @@
+@import "@/styles/modules/variables.module.scss";
+@import "@/styles/modules/mixins.module.scss";
+
+.page {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.sidebar {
+  position: sticky;
+  top: 0;
+  grid-column: 1;
+  height: 95vh;
+}
+
+.content {
+  padding: $spacing-md;
+  grid-column: 2/5;
+}
+
+
+.data_wrapper {
+  @include column;
+  text-align: center;
+  padding: $spacing-lg;
+  align-items: center;
+  justify-content: center;
+}
+

@@ -1,0 +1,10 @@
+@import "@/styles/modules/variables.module.scss";
+@import "@/styles/modules/mixins.module.scss";
+
+.container {
+  @include grid(200px);
+}
+
+.title {
+  margin-bottom: 1em;
+}

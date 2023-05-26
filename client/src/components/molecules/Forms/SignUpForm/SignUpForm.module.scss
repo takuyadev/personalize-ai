@@ -1,0 +1,22 @@
+@import "@/styles/modules/variables.module.scss";
+@import "@/styles/modules/mixins.module.scss";
+
+.signup_container {
+  @include column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 600px;
+}
+
+.switch_text {
+  cursor: pointer;
+  &:hover {
+    transition: $smooth-transition;
+    opacity: 0.5;
+  }
+}
+
+.form_wrapper {
+  @include column;
+}

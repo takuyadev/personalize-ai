@@ -1,0 +1,27 @@
+@import "@/styles/modules/variables.module.scss";
+@import "@/styles/modules/mixins.module.scss";
+
+.footer {
+  @include row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.heading {
+  font-size: $text-lg;
+  margin-bottom: $spacing-md;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.count {
+  @include row;
+  align-items: center;
+  opacity: 0.5;
+}
+
+.time {
+  font-size: $text-xs;
+  opacity: 0.5;
+}

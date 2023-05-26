@@ -1,0 +1,44 @@
+@import "@/styles/modules/variables.module.scss";
+@import "@/styles/modules/mixins.module.scss";
+
+@mixin status {
+  @include row;
+  align-items: center;
+  gap: $spacing-md;
+}
+
+@mixin dot {
+  height: 8px;
+  width: 8px;
+  border-radius: 8px;
+}
+
+.success {
+  @include status;
+  color: $success-color;
+
+  & .status-dot {
+    @include dot;
+    background: $success-color;
+  }
+}
+
+.danger {
+  @include status;
+  color: $danger-color;
+
+  & .status-dot {
+    @include dot;
+    background: $danger-color;
+  }
+}
+
+.warning {
+  @include status;
+  color: $warning-color;
+
+  & .status-dot {
+    @include dot;
+    background: $warning-color;
+  }
+}

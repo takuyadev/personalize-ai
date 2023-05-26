@@ -1,0 +1,48 @@
+@import "@/styles/modules/variables.module.scss";
+@import "@/styles/modules/mixins.module.scss";
+
+.nav {
+  @include row;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+  list-style: none;
+  background-color: $primary-color;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  margin-left: 2em;
+
+  .logo {
+    margin-right: 1em;
+    margin-right: -0.1em;
+  }
+
+  .text {
+    color: $secondary-color;
+    font-family: "Roboto Mono", "sans-serif";
+    font-weight: 100;
+    font-size: 2.2em;
+    text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff;
+  }
+
+  .navlinks {
+    display: flex;
+  }
+}
+
+.navlist {
+  @include row;
+  gap: $spacing-xl;
+  list-style-type: none;
+  display: flex;
+  margin-right: 2em;
+
+  .navitem {
+  }
+}

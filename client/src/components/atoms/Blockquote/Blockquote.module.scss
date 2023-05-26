@@ -1,0 +1,7 @@
+@import "@/styles/modules/variables.module.scss";
+
+.blockquote {
+  border-left: 2px solid $secondary-color;
+  padding-left: $spacing-md;
+  margin-left: 0;
+}

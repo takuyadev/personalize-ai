@@ -1,0 +1,30 @@
+@import "@/styles/modules/variables.module.scss";
+@import "@/styles/modules/mixins.module.scss";
+
+
+.button {
+  @include row;
+  align-items: center;
+  position: relative;
+  background: none;
+  color: $secondary-color;
+  border: none;
+  cursor: pointer;
+  font-weight: 100;
+  font-size: $text-md;
+  padding: $spacing-md 0;
+  &::after {    
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 3px;
+    background: $accent-color;
+    transform: scale(0, 1);
+    transition: $smooth-transition;
+  }
+  &:hover:after { 
+    transform: scale(1,1);
+  }
+}

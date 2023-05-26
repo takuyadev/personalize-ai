@@ -1,0 +1,2 @@
+-- AlterTable
+ALTER TABLE "Lead" ALTER COLUMN "keywords" SET DATA TYPE TEXT;

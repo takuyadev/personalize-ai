@@ -1,0 +1,18 @@
+@import "@/styles/modules/variables.module.scss";
+@import "@/styles/modules/mixins.module.scss";
+
+.card_wrapper {
+  height: 400px;
+  @include column;
+  align-items: center;
+  justify-content: center;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.label {
+  font-weight: bold;
+  text-align: center;
+}

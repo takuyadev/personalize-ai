@@ -1,0 +1,27 @@
+@import "@/styles/modules/variables.module.scss";
+@import "@/styles/modules/mixins.module.scss";
+
+.data_container {
+  @include grid;
+  gap: $spacing-md;
+}
+
+.data_wrapper {
+  @include column;
+  text-align: center;
+  max-width: 300px;
+  margin: 0 auto;
+  padding: $spacing-lg;
+  align-items: center;
+  justify-content: center;
+}
+
+.counter_container {
+  @include column;
+}
+
+.subtitle {
+  font-size: $text-sm;
+  opacity: 0.5;
+  margin-bottom: $spacing-md;
+}

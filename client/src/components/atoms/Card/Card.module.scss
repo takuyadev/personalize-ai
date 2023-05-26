@@ -1,0 +1,31 @@
+@import "@/styles/modules/variables.module.scss";
+@import "@/styles/modules/mixins.module.scss";
+
+@mixin card {
+  @include column;
+  position: relative;
+  padding: $spacing-md;
+  color: $secondary-color;
+  border: 1px solid $secondary-color;
+  background-color: $primary-color;
+}
+
+.card {
+  @include card;
+}
+
+.card_click {
+  @include card;
+  cursor: pointer;
+  &:hover {
+    border: 1px solid $accent-color;
+    transition: $smooth-transition;
+  }
+}
+
+.card_select {
+  @include card;
+  cursor: pointer;
+  border: 1px solid $accent-color;
+  color: $accent-color
+}

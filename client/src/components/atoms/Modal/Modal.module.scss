@@ -1,0 +1,27 @@
+@import "@/styles/modules/variables.module.scss";
+@import "@/styles/modules/mixins.module.scss";
+
+.container{
+  height: 100vh;
+  width: 100vw;
+}
+.modal {
+  position: fixed;
+  background-color: $primary-color;
+  border: 1px solid $secondary-color;
+  padding: $spacing-xl;
+  color: $secondary-color;
+  z-index: 100;
+}
+
+.close {
+  position: absolute;
+  right: 1.3em;
+  top: 1.5em;
+}
+
+.modal_wrapper {
+  @include column;
+  padding-top: $spacing-xl;
+  align-items: center;
+}

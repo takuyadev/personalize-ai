@@ -1,0 +1,23 @@
+@import "@/styles/modules/variables.module.scss";
+@import "@/styles/modules/mixins.module.scss";
+
+.header {
+  width: 100%;
+  @include row;
+  align-items: center;
+  border-bottom: 1px solid #{$secondary-color};
+  padding-bottom: $spacing-md;
+  margin-bottom: $spacing-md;
+  justify-content: space-between;
+
+}
+
+.header_wrapper {
+  @include row;
+  align-items: center;
+}
+
+.children_wrapper {
+  @include row;
+  align-items: center;
+}

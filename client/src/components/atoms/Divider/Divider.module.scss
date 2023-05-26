@@ -1,0 +1,10 @@
+@import "@/styles/modules/variables.module.scss";
+@import "@/styles/modules/mixins.module.scss";
+
+.divider {
+  height: 1px;
+  width: 100%;
+  border: none;
+  background-color: $secondary-color;
+  opacity: 0.25;
+}

@@ -1,0 +1,49 @@
+.title {
+  margin-top: 1em;
+  text-align: center;
+}
+
+.description {
+  color: #fff;
+}
+
+.line {
+  border: 2px solid white;
+}
+
+.leads,
+.opened,
+.replied,
+.bounced,
+.unsubscribed,
+.statstitle {
+  display: flex;
+  justify-content: space-between;
+}
+
+.stats {
+  width: 20%;
+  margin-left: 2em;
+  margin-bottom: -3em;
+}
+
+.campaignstats {
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
+
+.statstitle {
+  margin-bottom: 1em;
+  align-items: center;
+}
+
+.icon {
+  margin-right: 1em;
+  font-size: 1.2em;
+}
+
+.visualgraph {
+  border: 1px solid #fff;
+  margin-right: 2em;
+  margin-bottom: 2em;
+}

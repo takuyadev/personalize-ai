@@ -1,0 +1,52 @@
+@import "./modules/variables.module.scss";
+@import "./lib/normalize.module.scss";
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400;700&display=swap");
+
+:root {
+  background: black;
+}
+
+
+body {
+  font-family: "Roboto Mono", "sans-serif";
+  color: $secondary-color;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: $spacing-none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.display {
+  font-size: $text-4xl;
+}
+
+h1 {
+  font-size: $text-3xl;
+}
+
+h2 {
+  font-size: $text-2xl;
+}
+
+h3 {
+  font-size: $text-xl;
+}
+
+h4 {
+  font-size: $text-lg;
+}
+
+p {
+  font-size: $text-md;
+}

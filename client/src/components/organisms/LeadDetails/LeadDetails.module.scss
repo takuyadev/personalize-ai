@@ -1,0 +1,5 @@
+@import "@/styles/modules/mixins.module.scss";
+
+.container {
+  @include column;
+}

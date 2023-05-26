@@ -1,0 +1,15 @@
+@import "@/styles/modules/variables.module.scss";
+@import "@/styles/modules/mixins.module.scss";
+
+.footer {
+  @include row;
+  justify-content: space-between;
+}
+
+.card_wrapper {
+  @include column;
+}
+
+.center {
+  @include center;
+}

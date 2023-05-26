@@ -1,0 +1,26 @@
+@import "@/styles/modules/variables.module.scss";
+@import "@/styles/modules/mixins.module.scss";
+
+.container {
+  @include column;
+  position: relative;
+  width: 100%;
+
+  .icon {
+    position: absolute;
+    color: $secondary-color;
+    bottom: $spacing-sm;
+    left: $spacing-md;
+  }
+
+  & > label {
+    opacity: 0.5;
+  }
+
+  .input {
+    background: transparent;
+    padding: $spacing-sm $spacing-md;
+    border: 1px solid $secondary-color;
+    color: $secondary-color;
+  }
+}

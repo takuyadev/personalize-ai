@@ -1,0 +1,17 @@
+@import "@/styles/modules/mixins.module.scss";
+@import "@/styles/modules/variables.module.scss";
+
+.container {
+  @include column;
+  gap: $spacing-md;
+}
+
+.badges {
+  @include column;
+  gap: $spacing-md;
+}
+
+.heading {
+  @include row;
+  margin-bottom: $spacing-md;
+}

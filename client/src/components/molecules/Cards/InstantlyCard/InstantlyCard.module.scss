@@ -1,0 +1,16 @@
+@import "@/styles/modules/variables.module.scss";
+@import "@/styles/modules/mixins.module.scss";
+
+.heading {
+  font-size: $text-lg;
+  margin-bottom: $spacing-md;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.count {
+  @include row;
+  align-items: center;
+  opacity: 0.5;
+}

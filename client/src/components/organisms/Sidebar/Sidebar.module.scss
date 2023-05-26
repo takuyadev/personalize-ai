@@ -1,0 +1,8 @@
+@import "@/styles/modules/variables.module.scss";
+@import "@/styles/modules/mixins.module.scss";
+
+.section {
+  @include column;
+  justify-content: space-between;
+  height: 100%;
+}

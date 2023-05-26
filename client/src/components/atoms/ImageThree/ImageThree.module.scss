@@ -1,0 +1,55 @@
+@import "@/styles/modules/variables.module.scss";
+
+.imageThree {
+  color: white;
+  width: 100%;
+  height: 100vh;
+  background: $accent-color;
+  //border: 1px dotted white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .extensionvid {
+    width: 50%;
+    margin-left: 2em;
+  }
+
+  .extensiondesc {
+    width: 50%;
+    margin-right: 2em;
+    display: flex;
+    flex-direction: column;
+
+    p {
+      font-size: 1.6em;
+      padding: 15%;
+      line-height: 1.5;
+      text-align: justify;
+    }
+
+    .subtext {
+      margin: 0;
+      padding: 0;
+      font-size: 5em;
+    }
+
+    .sectionTitle {
+      text-align: center;
+
+      p {
+        padding: 0;
+        text-align: center;
+        font-size: 1.5em;
+      }
+
+      h2 {
+        font-size: 2.5em;
+      }
+    
+    }
+  }
+}
+
+
+

@@ -1,0 +1,58 @@
+@import "@/styles/modules/variables.module.scss";
+@import "@/styles/modules/mixins.module.scss";
+
+.home {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+}
+
+.herotext {
+  @include column;
+  gap: $spacing-lg;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: -7.5em;
+
+  .heroheadline {
+    font-size: 4rem;
+    .highlight {
+      color: $accent-color;
+    }
+  }
+
+  .herosubtext {
+    line-height: $spacing-lg;
+    max-width: 400px;
+    text-align: center;
+  }
+
+  @media only screen and (max-width: 992px) {
+    .herospan {
+      text-align: center;
+      font-size: 3em;
+      padding-top: 20px;
+    }
+  }
+}
+
+@mixin icon {
+  position: absolute;
+  opacity: 0.15;
+  color: $accent-color;
+}
+
+.icon_user {
+  @include icon;
+  left: 20%;
+  rotate: -12deg;
+}
+
+.icon_chart {
+  @include icon;
+  right: 15%;
+  rotate: 12deg;
+}
+

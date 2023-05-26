@@ -1,0 +1,17 @@
+@import "@/styles/modules/mixins.module.scss";
+@import "@/styles/modules/variables.module.scss";
+
+.file_label {
+  @include row;
+  justify-content: center;
+  border: 1px dashed $secondary-color;
+  padding: $spacing-md;
+  cursor: pointer;
+  &:hover {
+    background: #{$secondary-color}10;
+  }
+}
+
+.file_input {
+  display: none;
+}

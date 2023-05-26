@@ -1,0 +1,13 @@
+@import "@/styles/modules/variables.module.scss";
+@import "@/styles/modules/mixins.module.scss";
+
+.button_container {
+  @include row;
+  justify-content: flex-end;
+}
+
+.info_header {
+  @include row;
+  justify-content: space-between;
+  align-items: center;
+}

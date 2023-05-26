@@ -1,0 +1,9 @@
+@import "@/styles/modules/mixins.module.scss";
+@import "@/styles/modules/variables.module.scss";
+
+.badge {
+  @include row;
+  align-items: center;
+  color: $secondary-color;
+  opacity: 0.5;
+}

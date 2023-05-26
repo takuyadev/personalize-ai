@@ -1,0 +1,26 @@
+@import "@/styles/modules/variables.module.scss";
+@import "@/styles/modules/mixins.module.scss";
+
+.button {
+  @include row;
+  justify-content: center;
+  align-items: center;
+  background-color: $secondary-color;
+  padding: 0.6em $spacing-md;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  border: 1px solid $secondary-color;
+
+  &:hover {
+    transition: 0.2s;
+    background: transparent;
+    color: $secondary-color;
+  }
+}
+
+.button_danger {
+  background-color: $danger-color;
+  border-color: $danger-color;
+  color: $secondary-color;
+}

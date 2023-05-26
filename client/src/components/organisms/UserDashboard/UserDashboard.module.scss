@@ -1,0 +1,11 @@
+@import "@/styles/modules/variables.module.scss";
+@import "@/styles/modules/mixins.module.scss";
+
+.data_container {
+  @include grid;
+  gap: $spacing-md;
+}
+
+.center {
+  @include center;
+}

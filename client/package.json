@@ -1,0 +1,31 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "chart.js": "^4.3.0",
+    "eslint": "8.40.0",
+    "eslint-config-next": "13.4.2",
+    "firebase": "^9.22.0",
+    "framer-motion": "^10.12.12",
+    "next": "13.4.2",
+    "normalize.css": "^8.0.1",
+    "react": "18.2.0",
+    "react-chartjs-2": "^5.2.0",
+    "react-dom": "18.2.0",
+    "react-hook-form": "^7.43.9",
+    "react-icons": "^4.8.0"
+  },
+  "devDependencies": {
+    "@types/node": "20.2.1",
+    "@types/react": "18.2.6",
+    "encoding": "^0.1.13",
+    "sass": "^1.62.1"
+  }
+}

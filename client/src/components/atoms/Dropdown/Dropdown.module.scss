@@ -1,0 +1,9 @@
+@import "@/styles/modules/variables.module.scss";
+@import "@/styles/modules/mixins.module.scss";
+
+.dropdown {
+  border: 1px solid white;
+  background: transparent;
+  color: $secondary-color;
+  padding-left: $spacing-md;
+}

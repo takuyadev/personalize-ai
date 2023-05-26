@@ -1,0 +1,21 @@
+@import "@/styles/modules/variables.module.scss";
+@import "@/styles/modules/mixins.module.scss";
+
+@mixin container {
+  @include row;
+}
+
+.container_danger {
+  @include container;
+  color: $danger-color;
+}
+
+.container_success {
+  @include container;
+  color: $success-color;
+}
+
+.container_warning {
+  @include container;
+  color: $warning-color;
+}

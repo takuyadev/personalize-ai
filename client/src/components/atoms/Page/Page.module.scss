@@ -1,0 +1,7 @@
+@import "@/styles/modules/variables.module.scss";
+@import "@/styles/modules/mixins.module.scss";
+
+.content {
+  padding: 0;
+  grid-column: 2/5;
+}

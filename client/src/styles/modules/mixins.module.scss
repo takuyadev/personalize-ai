@@ -1,0 +1,25 @@
+@import "./variables.module.scss";
+
+@mixin column {
+  display: flex;
+  flex-direction: column;
+  gap: $spacing-md;
+}
+
+@mixin row {
+  display: flex;
+  flex-direction: row;
+  gap: $spacing-md;
+}
+
+@mixin grid($min: 200px) {
+  display: grid;
+  gap: $spacing-md;
+  grid-template-columns: repeat(auto-fit, minmax($min, 1fr));
+}
+
+@mixin center {
+  @include column;
+  align-items: center;
+  padding-top: $spacing-xl;
+}

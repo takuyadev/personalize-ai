@@ -1,0 +1,23 @@
+@import "@/styles/modules/variables.module.scss";
+@import "@/styles/modules/mixins.module.scss";
+
+.tab {
+  list-style: none;
+  padding: $spacing-md;
+  border-bottom: 1px solid transparent;
+  transform: translateY(1px);
+  opacity: 0.5;
+
+  cursor: pointer;
+  &:hover {
+    opacity: 1;
+    transition: $smooth-transition;
+    border-bottom: 1px solid $accent-color;
+  }
+}
+
+.tab_selected {
+  border-bottom: 1px solid $accent-color;
+  color: $accent-color;
+  opacity: 1;
+}

@@ -1,0 +1,23 @@
+@import "@/styles/modules/variables.module.scss";
+@import "@/styles/modules/mixins.module.scss";
+
+.data_wrapper {
+  @include column;
+  text-align: center;
+  margin: 0 auto;
+  padding: $spacing-lg;
+  max-width: 300px;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.title {
+  font-size: $text-xl;
+}
+
+.subtitle {
+  font-size: $text-sm;
+  opacity: 0.5;
+  margin-bottom: $spacing-md;
+}

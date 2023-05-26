@@ -1,0 +1,19 @@
+@import "@/styles/modules/variables.module.scss";
+@import "@/styles/modules/mixins.module.scss";
+
+.keyword_container {
+  @include row;
+  justify-content: stretch;
+  align-items: flex-end;
+}
+
+
+.form_wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1em;
+}
+
+.col {
+  @include column;
+}
